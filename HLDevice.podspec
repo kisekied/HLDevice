@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "kisekied" => "kisekied@gmail.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/kisekied/HLDevice.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/kisekied/HLDevice.git", :commit => "8cf5fea43a414d701b0c050b9e01c1b06ca8943b" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'HLDevice/HLDevice/Classes/*.{h,m}'
+  s.source_files  = 'Classes/*.{h,m}'
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
