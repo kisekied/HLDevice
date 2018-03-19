@@ -13,7 +13,7 @@
 		E8492908201EC9D000830074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8492907201EC9D000830074 /* Assets.xcassets */; };
 		E849290B201EC9D000830074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8492909201EC9D000830074 /* LaunchScreen.storyboard */; };
 		E849290E201EC9D000830074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E849290D201EC9D000830074 /* main.m */; };
-		E8492917201EC9E500830074 /* HLDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = E8492916201EC9E500830074 /* HLDevice.m */; };
+		E8B61EC9205FA94900484EDF /* HLDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B61EC8205FA94900484EDF /* HLDevice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		E849290A201EC9D000830074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E849290C201EC9D000830074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E849290D201EC9D000830074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E8492915201EC9E500830074 /* HLDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLDevice.h; sourceTree = "<group>"; };
-		E8492916201EC9E500830074 /* HLDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLDevice.m; sourceTree = "<group>"; };
+		E8B61EC7205FA94900484EDF /* HLDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDevice.h; sourceTree = "<group>"; };
+		E8B61EC8205FA94900484EDF /* HLDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDevice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		E84928FD201EC9D000830074 /* HLDevice */ = {
 			isa = PBXGroup;
 			children = (
-				E8492914201EC9D600830074 /* HLDevice */,
+				E8B61EC6205FA94900484EDF /* Classes */,
 				E84928FE201EC9D000830074 /* AppDelegate.h */,
 				E84928FF201EC9D000830074 /* AppDelegate.m */,
 				E8492901201EC9D000830074 /* ViewController.h */,
@@ -75,13 +75,13 @@
 			path = HLDevice;
 			sourceTree = "<group>";
 		};
-		E8492914201EC9D600830074 /* HLDevice */ = {
+		E8B61EC6205FA94900484EDF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E8492915201EC9E500830074 /* HLDevice.h */,
-				E8492916201EC9E500830074 /* HLDevice.m */,
+				E8B61EC7205FA94900484EDF /* HLDevice.h */,
+				E8B61EC8205FA94900484EDF /* HLDevice.m */,
 			);
-			path = HLDevice;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8492903201EC9D000830074 /* ViewController.m in Sources */,
-				E8492917201EC9E500830074 /* HLDevice.m in Sources */,
+				E8B61EC9205FA94900484EDF /* HLDevice.m in Sources */,
 				E849290E201EC9D000830074 /* main.m in Sources */,
 				E8492900201EC9D000830074 /* AppDelegate.m in Sources */,
 			);

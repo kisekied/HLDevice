@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
 用来判断iOS设备的型号以及是否为模拟器.
                    DESC
 
-  s.homepage     = "https://github.com/kisekied/HLDevice"
+  s.homepage     = "https://github.com/kisekied/HLDevice.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "kisekied" => "kisekied@gmail.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/kisekied/HLDevice", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/kisekied/HLDevice.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
