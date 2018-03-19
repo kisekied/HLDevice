@@ -19,15 +19,14 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "用来判断iOS设备的型号以及是否为模拟器."
   s.description  = <<-DESC
-用来判断iOS设备的型号以及是否为模拟器.
+这是一个用来判断 iOS 设备的类型的库，可以用来判断真机或模拟器的设备型号，以及该设备是否为模拟器
                    DESC
 
   s.homepage     = "https://github.com/kisekied/HLDevice.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "kisekied" => "kisekied@gmail.com" }
+  s.author       = { "kisekied" => "kisekied@gmail.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/kisekied/HLDevice.git", :commit => "8cf5fea43a414d701b0c050b9e01c1b06ca8943b" }
-
+  s.source       = { :git => "https://github.com/kisekied/HLDevice.git", :tag => "#{s.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -37,7 +36,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'Classes/*.{h,m}'
+  s.source_files  = "HLDevice/Classes/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
