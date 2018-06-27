@@ -26,7 +26,17 @@
     return self;
 }
 
+
 #pragma mark - Public
+
++ (instancetype)currentDevice {
+    static HLDevice *device = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        device = [[HLDevice alloc] init];
+    });
+    return device;
+}
 
 - (BOOL)isPhone {
     return (self.deviceModel >= HLDeviceModel_iPhoneMinValue &&

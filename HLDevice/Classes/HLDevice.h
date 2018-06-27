@@ -87,6 +87,11 @@ typedef NS_ENUM(NSInteger, HLDeviceType) {
 @property (nonatomic, assign, readonly) HLDeviceType deviceType;
 
 /**
+ 当前设备 
+ */
++ (instancetype)currentDevice;
+
+/**
  是否为iPhone, 不区分是否是真机
  */
 - (BOOL)isPhone;
