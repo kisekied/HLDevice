@@ -30,6 +30,9 @@ typedef NS_ENUM(NSInteger, HLDeviceModel) {
     HLDeviceModeliPhone8,
     HLDeviceModeliPhone8Plus,
     HLDeviceModeliPhoneX,
+    HLDeviceModeliPhoneXR,
+    HLDeviceModeliPhoneXS,
+    HLDeviceModeliPhoneXSMax,
 
     // iPad
     HLDeviceModeliPad1,
@@ -61,7 +64,7 @@ typedef NS_ENUM(NSInteger, HLDeviceModel) {
     HLDeviceModelMinValue       = HLDeviceModelUnknown,
 
     HLDeviceModeliPhoneMinValue = HLDeviceModeliPhone1G,
-    HLDeviceModeliPhoneMaxValue = HLDeviceModeliPhoneX,
+    HLDeviceModeliPhoneMaxValue = HLDeviceModeliPhoneXSMax,
     HLDeviceModeliPadMinValue   = HLDeviceModeliPad1,
     HLDeviceModeliPadMaxValue   = HLDeviceModeliPadPro10Inch,
     HLDeviceModeliPodMinValue   = HLDeviceModeliPodTouch1,
@@ -76,7 +79,7 @@ typedef NS_ENUM(NSInteger, HLDeviceModel) {
  - HLDeviceTypeSimulator: 模拟器
  */
 typedef NS_ENUM(NSInteger, HLDeviceType) {
-    HLDeviceTypeUnkown,
+    HLDeviceTypeUnknown,
     HLDeviceTypeRealMachine,
     HLDeviceTypeSimulator,
 };
@@ -85,9 +88,11 @@ typedef NS_ENUM(NSInteger, HLDeviceType) {
 
 @property (nonatomic, assign, readonly) HLDeviceModel deviceModel;
 @property (nonatomic, assign, readonly) HLDeviceType deviceType;
+@property (nonatomic, copy, readonly) NSString *modelIdentifier;
 
 /**
- 当前设备 
+ 当前设备的实例对象.
+ 这是一个单例对象.
  */
 + (instancetype)currentDevice;
 
@@ -105,5 +110,13 @@ typedef NS_ENUM(NSInteger, HLDeviceType) {
  是否为iPod, 不区分是否是真机
  */
 - (BOOL)isPod;
+
+/**
+ 根据 model identifier 来判断设备
+
+ @param modelIdentifier iOS device model identifier. 例如: "iPhone1,1", "iPad1,1"
+ @return `HLDeviceModel`类型
+ */
++ (HLDeviceModel)deviceModelWithModelIdentifier:(NSString *)modelIdentifier;
 
 @end
