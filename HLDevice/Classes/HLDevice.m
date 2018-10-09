@@ -77,7 +77,7 @@
                [_modelIdentifier isEqualToString:@"x86_64"]) {
         _deviceType      = HLDeviceTypeSimulator;
         _modelIdentifier = [NSProcessInfo processInfo].environment[@"SIMULATOR_MODEL_IDENTIFIER"] ?: @"simulator";
-    } else {
+    } else if ([HLDevice deviceModelWithModelIdentifier:_modelIdentifier] == HLDeviceModelUnknown) {
         _deviceType      = HLDeviceTypeUnknown;
         _modelIdentifier = @"unknown";
     }
