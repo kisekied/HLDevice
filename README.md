@@ -26,7 +26,7 @@ if (device.deviceModel == HLDeviceModeliPhoneX ) {
 
 
 # History
-2018-10-09 修复真机bug
-2018-09-29 增加三种设备类型: iPhoneXR, iPhoneXS, iPhoneXS Max
+- 2018-10-09 修复真机bug.
+- 2018-09-29 增加三种设备类型: iPhoneXR, iPhoneXS, iPhoneXS Max
 
 
