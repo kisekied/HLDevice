@@ -69,9 +69,9 @@
 
     _modelIdentifier     = [HLDevice modelIdentifierForCurrentDevice] ?: @"";
 
-    if ([_modelIdentifier isEqualToString:@"iPhone"] ||
-        [_modelIdentifier isEqualToString:@"iPad"] ||
-        [_modelIdentifier isEqualToString:@"iPod"]) {
+    if ([_modelIdentifier hasPrefix:@"iPhone"] ||
+        [_modelIdentifier hasPrefix:@"iPad"] ||
+        [_modelIdentifier hasPrefix:@"iPod"]) {
         _deviceType      = HLDeviceTypeRealMachine;
     } else if ([_modelIdentifier isEqualToString:@"i386"] ||
                [_modelIdentifier isEqualToString:@"x86_64"]) {
