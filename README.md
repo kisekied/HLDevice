@@ -4,6 +4,17 @@
 - `HLDeviceType`: 用于判断设备类型，目前有三种: `HLDeviceTypeUnkown`: 未知设备, `HLDeviceTypeRealMachine`: 真机, `HLDeviceTypeSimulator`: 模拟器
 - `modelIdentifier`: iOS设备识别符。 如： "iPhone1,1", "iPad1,1"等
 
+# Installation
+
+## CocoaPods
+``` ruby
+pod 'HLDevice', '~> 1.2.0'
+```
+
+## Manually
+将 `HLDevice.h` 和 `HLDevice.m` 拖到工程中即可。
+
+
 # Usage
 ```objc
 HLDevice *device = [HLDevice currentDevice];
@@ -26,6 +37,7 @@ if (device.deviceModel == HLDeviceModeliPhoneX ) {
 
 
 # History
+- 2019-01-23 更新iPad型号
 - 2018-10-09 修复真机bug.
 - 2018-09-29 增加三种设备类型: iPhoneXR, iPhoneXS, iPhoneXS Max
 
