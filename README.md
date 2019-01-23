@@ -6,12 +6,12 @@
 
 # Installation
 
-## CocoaPods
+### CocoaPods
 ``` ruby
 pod 'HLDevice', '~> 1.2.0'
 ```
 
-## Manually
+### Manually
 将 `HLDevice.h` 和 `HLDevice.m` 拖到工程中即可。
 
 
