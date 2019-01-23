@@ -178,6 +178,17 @@ static inline NSDictionary<NSString *, NSNumber *> *HLDeviceModelMap() {
              @"iPad7,2": @(HLDeviceModeliPadPro12Inch2),
              @"iPad7,3": @(HLDeviceModeliPadPro10Inch),
              @"iPad7,4": @(HLDeviceModeliPadPro10Inch),
+             @"iPad7,5": @(HLDeviceModeliPad6),
+             @"iPad7,6": @(HLDeviceModeliPad6),
+             @"iPad8,1": @(HLDeviceModeliPadPro11Inch),
+             @"iPad8,2": @(HLDeviceModeliPadPro11Inch),
+             @"iPad8,3": @(HLDeviceModeliPadPro11Inch),
+             @"iPad8,4": @(HLDeviceModeliPadPro11Inch),
+             @"iPad8,5": @(HLDeviceModeliPadPro12Inch3),
+             @"iPad8,6": @(HLDeviceModeliPadPro12Inch3),
+             @"iPad8,7": @(HLDeviceModeliPadPro12Inch3),
+             @"iPad8,8": @(HLDeviceModeliPadPro12Inch3),
+             
              // iPod
              @"iPod1,1": @(HLDeviceModeliPodTouch1),
              @"iPod2,1": @(HLDeviceModeliPodTouch2),
