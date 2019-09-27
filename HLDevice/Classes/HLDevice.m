@@ -139,6 +139,9 @@ static inline NSDictionary<NSString *, NSNumber *> *HLDeviceModelMap() {
              @"iPhone11,4": @(HLDeviceModeliPhoneXSMax),
              @"iPhone11,6": @(HLDeviceModeliPhoneXSMax),
              @"iPhone11,8": @(HLDeviceModeliPhoneXR),
+             @"iPhone12,1": @(HLDeviceModeliPhone11),
+             @"iPhone12,3": @(HLDeviceModeliPhone11Pro),
+             @"iPhone12,5": @(HLDeviceModeliPhone11ProMax),
 
              // iPad
              @"iPad1,1": @(HLDeviceModeliPad1),

@@ -33,6 +33,9 @@ typedef NS_ENUM(NSInteger, HLDeviceModel) {
     HLDeviceModeliPhoneXR,
     HLDeviceModeliPhoneXS,
     HLDeviceModeliPhoneXSMax,
+    HLDeviceModeliPhone11,
+    HLDeviceModeliPhone11Pro,
+    HLDeviceModeliPhone11ProMax,
 
     // iPad
     HLDeviceModeliPad1,
@@ -70,7 +73,7 @@ typedef NS_ENUM(NSInteger, HLDeviceModel) {
     HLDeviceModelMinValue       = HLDeviceModelUnknown,
 
     HLDeviceModeliPhoneMinValue = HLDeviceModeliPhone1G,
-    HLDeviceModeliPhoneMaxValue = HLDeviceModeliPhoneXSMax,
+    HLDeviceModeliPhoneMaxValue = HLDeviceModeliPhone11ProMax,
     HLDeviceModeliPadMinValue   = HLDeviceModeliPad1,
     HLDeviceModeliPadMaxValue   = HLDeviceModeliPadAir3,
     HLDeviceModeliPodMinValue   = HLDeviceModeliPodTouch1,
