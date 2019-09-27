@@ -53,6 +53,8 @@ typedef NS_ENUM(NSInteger, HLDeviceModel) {
     HLDeviceModeliPad6,                 // iPad 2018
     HLDeviceModeliPadPro11Inch,
     HLDeviceModeliPadPro12Inch3,
+    HLDeviceModeliPadMini5,
+    HLDeviceModeliPadAir3,
 
     // iPod
     HLDeviceModeliPodTouch1,
