@@ -33,6 +33,9 @@ typedef NS_ENUM(NSInteger, HLDeviceModel) {
     HLDeviceModeliPhoneXR,
     HLDeviceModeliPhoneXS,
     HLDeviceModeliPhoneXSMax,
+    HLDeviceModeliPhone11,
+    HLDeviceModeliPhone11Pro,
+    HLDeviceModeliPhone11ProMax,
 
     // iPad
     HLDeviceModeliPad1,
@@ -53,6 +56,8 @@ typedef NS_ENUM(NSInteger, HLDeviceModel) {
     HLDeviceModeliPad6,                 // iPad 2018
     HLDeviceModeliPadPro11Inch,
     HLDeviceModeliPadPro12Inch3,
+    HLDeviceModeliPadMini5,
+    HLDeviceModeliPadAir3,
 
     // iPod
     HLDeviceModeliPodTouch1,
@@ -61,17 +66,18 @@ typedef NS_ENUM(NSInteger, HLDeviceModel) {
     HLDeviceModeliPodTouch4,
     HLDeviceModeliPodTouch5,
     HLDeviceModeliPodTouch6,
+    HLDeviceModeliPodTouch7,
 
     HLDeviceModelMaxValue,
     
     HLDeviceModelMinValue       = HLDeviceModelUnknown,
 
     HLDeviceModeliPhoneMinValue = HLDeviceModeliPhone1G,
-    HLDeviceModeliPhoneMaxValue = HLDeviceModeliPhoneXSMax,
+    HLDeviceModeliPhoneMaxValue = HLDeviceModeliPhone11ProMax,
     HLDeviceModeliPadMinValue   = HLDeviceModeliPad1,
-    HLDeviceModeliPadMaxValue   = HLDeviceModeliPadPro12Inch3,
+    HLDeviceModeliPadMaxValue   = HLDeviceModeliPadAir3,
     HLDeviceModeliPodMinValue   = HLDeviceModeliPodTouch1,
-    HLDeviceModeliPodMaxValue   = HLDeviceModeliPodTouch6,
+    HLDeviceModeliPodMaxValue   = HLDeviceModeliPodTouch7,
 };
 
 /**

@@ -139,6 +139,9 @@ static inline NSDictionary<NSString *, NSNumber *> *HLDeviceModelMap() {
              @"iPhone11,4": @(HLDeviceModeliPhoneXSMax),
              @"iPhone11,6": @(HLDeviceModeliPhoneXSMax),
              @"iPhone11,8": @(HLDeviceModeliPhoneXR),
+             @"iPhone12,1": @(HLDeviceModeliPhone11),
+             @"iPhone12,3": @(HLDeviceModeliPhone11Pro),
+             @"iPhone12,5": @(HLDeviceModeliPhone11ProMax),
 
              // iPad
              @"iPad1,1": @(HLDeviceModeliPad1),
@@ -188,6 +191,10 @@ static inline NSDictionary<NSString *, NSNumber *> *HLDeviceModelMap() {
              @"iPad8,6": @(HLDeviceModeliPadPro12Inch3),
              @"iPad8,7": @(HLDeviceModeliPadPro12Inch3),
              @"iPad8,8": @(HLDeviceModeliPadPro12Inch3),
+             @"iPad11,1": @(HLDeviceModeliPadMini5),
+             @"iPad11,2": @(HLDeviceModeliPadMini5),
+             @"iPad11,3": @(HLDeviceModeliPadAir3),
+             @"iPad11,4": @(HLDeviceModeliPadAir3),
              
              // iPod
              @"iPod1,1": @(HLDeviceModeliPodTouch1),
@@ -196,6 +203,7 @@ static inline NSDictionary<NSString *, NSNumber *> *HLDeviceModelMap() {
              @"iPod4,1": @(HLDeviceModeliPodTouch4),
              @"iPod5,1": @(HLDeviceModeliPodTouch5),
              @"iPod7,1": @(HLDeviceModeliPodTouch6),
+             @"iPod9,1": @(HLDeviceModeliPodTouch7),
              };
 }
 
