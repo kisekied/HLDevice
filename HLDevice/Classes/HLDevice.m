@@ -200,6 +200,7 @@ static inline NSDictionary<NSString *, NSNumber *> *HLDeviceModelMap() {
              @"iPod4,1": @(HLDeviceModeliPodTouch4),
              @"iPod5,1": @(HLDeviceModeliPodTouch5),
              @"iPod7,1": @(HLDeviceModeliPodTouch6),
+             @"iPod9,1": @(HLDeviceModeliPodTouch7),
              };
 }
 

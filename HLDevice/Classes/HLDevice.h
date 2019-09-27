@@ -63,6 +63,7 @@ typedef NS_ENUM(NSInteger, HLDeviceModel) {
     HLDeviceModeliPodTouch4,
     HLDeviceModeliPodTouch5,
     HLDeviceModeliPodTouch6,
+    HLDeviceModeliPodTouch7,
 
     HLDeviceModelMaxValue,
     
