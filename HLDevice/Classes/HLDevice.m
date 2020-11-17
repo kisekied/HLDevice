@@ -142,6 +142,11 @@ static inline NSDictionary<NSString *, NSNumber *> *HLDeviceModelMap() {
              @"iPhone12,1": @(HLDeviceModeliPhone11),
              @"iPhone12,3": @(HLDeviceModeliPhone11Pro),
              @"iPhone12,5": @(HLDeviceModeliPhone11ProMax),
+             @"iPhone12,8": @(HLDeviceModeliPhoneSE2),
+             @"iPhone13,1": @(HLDeviceModeliPhone12Mini),
+             @"iPhone13,2": @(HLDeviceModeliPhone12),
+             @"iPhone13,3": @(HLDeviceModeliPhone12Pro),
+             @"iPhone13,4": @(HLDeviceModeliPhone12ProMax),
 
              // iPad
              @"iPad1,1": @(HLDeviceModeliPad1),
@@ -183,6 +188,8 @@ static inline NSDictionary<NSString *, NSNumber *> *HLDeviceModelMap() {
              @"iPad7,4": @(HLDeviceModeliPadPro10Inch),
              @"iPad7,5": @(HLDeviceModeliPad6),
              @"iPad7,6": @(HLDeviceModeliPad6),
+             @"iPad7,11": @(HLDeviceModeliPad7),
+             @"iPad7,12": @(HLDeviceModeliPad7),
              @"iPad8,1": @(HLDeviceModeliPadPro11Inch),
              @"iPad8,2": @(HLDeviceModeliPadPro11Inch),
              @"iPad8,3": @(HLDeviceModeliPadPro11Inch),
@@ -191,11 +198,19 @@ static inline NSDictionary<NSString *, NSNumber *> *HLDeviceModelMap() {
              @"iPad8,6": @(HLDeviceModeliPadPro12Inch3),
              @"iPad8,7": @(HLDeviceModeliPadPro12Inch3),
              @"iPad8,8": @(HLDeviceModeliPadPro12Inch3),
+             @"iPad8,9": @(HLDeviceModeliPadPro11Inch2),
+             @"iPad8,10": @(HLDeviceModeliPadPro11Inch2),
+             @"iPad8,11": @(HLDeviceModeliPadPro12Inch4),
+             @"iPad8,12": @(HLDeviceModeliPadPro12Inch4),
              @"iPad11,1": @(HLDeviceModeliPadMini5),
              @"iPad11,2": @(HLDeviceModeliPadMini5),
              @"iPad11,3": @(HLDeviceModeliPadAir3),
              @"iPad11,4": @(HLDeviceModeliPadAir3),
-             
+             @"iPad11,6": @(HLDeviceModeliPad8),
+             @"iPad11,7": @(HLDeviceModeliPad8),
+             @"iPad13,1": @(HLDeviceModeliPadAir4),
+             @"iPad13,2": @(HLDeviceModeliPadAir4),
+
              // iPod
              @"iPod1,1": @(HLDeviceModeliPodTouch1),
              @"iPod2,1": @(HLDeviceModeliPodTouch2),
