@@ -37,7 +37,8 @@ if (device.deviceModel == HLDeviceModeliPhoneX ) {
 
 
 # History
-- 2019-09-27 添加支持`iPhone 11`系列, `iPad Air 3`, `iPad mini 5`,  `iPod Touch 7`
+- 2020-11-17 添加支持 `iPhone SE2` 和 `iPhone 12` 系列, 以及 `iPad 7`, `iPad 8`, `iPad Air 4` 和 `iPad Pro` 2020 系列
+- 2019-09-27 添加支持 `iPhone 11` 系列, `iPad Air 3`, `iPad mini 5`,  `iPod Touch 7`
 - 2019-01-23 更新iPad型号
 - 2018-10-09 修复真机bug.
 - 2018-09-29 增加三种设备类型: iPhoneXR, iPhoneXS, iPhoneXS Max
