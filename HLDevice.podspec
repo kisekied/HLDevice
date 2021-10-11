@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HLDevice"
-  s.version      = "1.4.0"
+  s.version      = "1.5"
   s.summary      = "用来判断iOS设备的型号以及是否为模拟器."
   s.description  = <<-DESC
 这是一个用来判断 iOS 设备的类型的库，可以用来判断真机或模拟器的设备型号，以及该设备是否为模拟器
